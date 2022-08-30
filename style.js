@@ -54,6 +54,3 @@ function CheckDay(day){
     }
 }
 
-for(i=0;i<5;i++){
-    document.getElementById("day" +(i+i)).innerHTML = weekday[Checkday(i)];
-}
