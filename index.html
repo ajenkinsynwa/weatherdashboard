@@ -1,76 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
-    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
     <title>Weather Forcast</title>
 </head>
+
 <body onload="DefaultScreen()">
 
-   
+
     <section>
         <h1 id="Par1"> Weather Forcast Dashboard</h1>
         <p id="inputContainer">City: <input type="text" id="cityInput"></p>
-        <button onclick="GetInfo()"type="button" class="btn btn-secondary">Search</button>
+        <button onclick="GetInfo()" type="button" class="btn btn-secondary">Search</button>
         <h2 id="cityName">Charlotte</h2>
-       
+
     </section>
 
-   
-            <div class="icons">
-                <p class="weather" id="day1"></p>
-                <div class="image col-12 col-md"><img src="dots.png" class="imgClass" id="img1"></div>
-                <p class="minValues" id="day1Min">Location...</p>
-                <p class="maxValues" id="day1Max">Location...</p>
+
+    <div class="icons">
+        <p class="weather" id="day1"></p>
+        <div class="image col-12 col-md"><img src="dots.png" class="imgClass" id="img1"></div>
+        <p class="minValues" id="day1Min">Location...</p>
+        <p class="maxValues" id="day1Max">Location...</p>
     </div>
 
     <section>
-        
-                <div class="icons">
-                    <p class="weather" id="day2"></p>
-                    <div class="image col-12 col-md"><img src="dots.png" class="imgClass" id="img2"></div>
-                    <p class="minValues" id="day2Min">Loading...</p>
-                    <p class="maxValues" id="day2Max">Loading...</p>
+
+        <div class="icons">
+            <p class="weather" id="day2"></p>
+            <div class="image col-12 col-md"><img src="dots.png" class="imgClass" id="img2"></div>
+            <p class="minValues" id="day2Min">Loading...</p>
+            <p class="maxValues" id="day2Max">Loading...</p>
         </div>
 
         <section>
-           
-                    <div class="icons">
-                        <p class="weather" id="day3"></p>
-                        <div class="image col-12 col-md"><img src="dots.png" class="imgClass" id="img3"></div>
-                        <p class="minValues" id="day3Min">L</p>
-                        <p class="maxValues" id="day3Max">L</p>
+
+            <div class="icons">
+                <p class="weather" id="day3"></p>
+                <div class="image col-12 col-md"><img src="dots.png" class="imgClass" id="img3"></div>
+                <p class="minValues" id="day3Min">L</p>
+                <p class="maxValues" id="day3Max">L</p>
             </div>
 
             <section>
-               
-                        <div class="icons">
-                            <p class="weather" id="day4"></p>
-                            <div class="image col-12 col-md"><img src="dots.png" class="imgClass" id="img4"></div>
-                            <p class="minValues" id="day4Min">L</p>
-                            <p class="maxValues" id="day4Max">L</p>
+
+                <div class="icons">
+                    <p class="weather" id="day4"></p>
+                    <div class="image col-12 col-md"><img src="dots.png" class="imgClass" id="img4"></div>
+                    <p class="minValues" id="day4Min">L</p>
+                    <p class="maxValues" id="day4Max">L</p>
                 </div>
 
                 <section>
-                   
-                            <div class="icons">
-                                <p class="weather" id="day5"></p>
-                                <div class="image col-12 col-md"><img src="dots.png" class="imgClass" id="img5"></div>
-                                <p class="minValues" id="day5Min">L</p>
-                                <p class="maxValues" id="day5Max">L</p>
+
+                    <div class="icons">
+                        <p class="weather" id="day5"></p>
+                        <div class="image col-12 col-md"><img src="dots.png" class="imgClass" id="img5"></div>
+                        <p class="minValues" id="day5Min">L</p>
+                        <p class="maxValues" id="day5Max">L</p>
                     </div>
-                </div>
-                </div>
-</section>
+                    </div>
+                    </div>
+                </section>
 
 
-<script src="style.js"></script>
+                <script src="style.js"></script>
 
 
 </body>
+
 </html>

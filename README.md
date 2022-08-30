@@ -13,12 +13,12 @@ show you the 5 day forecast of your city of choice, max/min temeperature,
 humidity, and wind speed. Weather can change at any given moment but 
 using modern technoloy weather applications are very accurate. 
 
-## Visuls 
+## Visuals
 
 ![The Weather Dashboard Displays the 5 Day Forcast-Humidity-Wing-& Max/Min Temperature".](/weather.png)
 
 
 ## Links to GitHub and Live Webpage 
-[Live Portfolio Webpage]()
+[Live Portfolio Webpage](https://ajenkinsynwa.github.io/weatherdashboard/)
 
 [Github Link](https://github.com/ajenkinsynwa/weatherdashboard)
