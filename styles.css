@@ -1,23 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Raleway:wght@200&display=swap');
+
 *{
-    color: rgb(7, 1, 1);
-    background: rgb(45, 150, 199);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(5, 3, 3);
+    background: rgb(126, 164, 181);
+    font-family:Raleway;
+  
    
 }
 
 h1{
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:darkgray;
+    font-family:Raleway;
+    background-color:rgb(114, 117, 123);
+    font-weight: bold;
+    font-size: 35px;
     
     
 }
 
-#cityInput, #cityName, #inputContainer,button{
+#cityInput, #cityName   #inputContainer,button{
 margin: 3px;
 padding:5px;
 text-align:left;
-font-size:20px;
+font-size:15px;
 font-weight:bold;
 }
 
@@ -26,30 +31,14 @@ font-weight:bold;
     
 }
 
-#iconsContainer{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    height: 160px;
-    width: 1200px;    
-     
-    border-radius: 20px;
-}
-
 .icons{
     display: inline-bock;
     float: left;
     height: 10px;
     width: 110px;
     margin: 20px;
-    
     border-radius: 10px;
 }
-
-
-
 
 .minValues{
     text-align: center;
@@ -67,6 +56,7 @@ font-weight:bold;
 .maxValues{
     text-align: right;
     display: inline-block;
+    font-weight: bold;
     justify-content: space-between;
     border-radius: 5px;
     height: 15px;
@@ -76,5 +66,4 @@ font-weight:bold;
     margin-left: 5px;
     font-size: small;
 }
-
 
