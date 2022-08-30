@@ -4,9 +4,13 @@
     color: rgb(5, 3, 3);
     background: rgb(126, 164, 181);
     font-family:Raleway;
+    margin: 0;
+    padding: 0;
+    display: flex:
+}
   
    
-}
+
 
 h1{
     text-align: center;
@@ -54,7 +58,7 @@ font-weight:bold;
 
 
 .maxValues{
-    text-align: right;
+    text-align: center;
     display: inline-block;
     font-weight: bold;
     justify-content: space-between;
@@ -67,3 +71,62 @@ font-weight:bold;
     font-size: small;
 }
 
+.imgClass {
+
+
+}
+
+#day5Min {
+    font-size: large;
+    margin: 5px;
+}
+
+#day5Max {
+    font-size: large;
+    margin-right: auto;
+    display: inline;
+}
+
+#day4Min {
+    font-size: large;
+    margin: 5px;
+}
+
+#day4Max {
+    font-size: large;
+    margin-right: auto;
+    display: inline;
+}
+
+#day3Min {
+    font-size: large;
+    margin: 5px;
+}
+
+#day3Max {
+    font-size: large;
+    margin-right: auto;
+    display: inline;
+}
+
+#day2Min {
+    font-size: large;
+    margin: 5px;
+}
+
+#day2Max {
+    font-size: large;
+    margin-right: auto;
+    display: inline;
+}
+
+#day1Min {
+    font-size: large;
+    margin: 5px;
+}
+
+#day1Max {
+    font-size: large;
+    margin-right: auto;
+    display: inline;
+}
