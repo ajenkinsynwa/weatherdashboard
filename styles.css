@@ -1,132 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Raleway:wght@200&display=swap');
-
-*{
-    color: rgb(5, 3, 3);
-    background: rgb(126, 164, 181);
-    font-family:Raleway;
-    margin: 0;
-    padding: 0;
-    display: flex:
+.navbar-brand {
+    font-size: 36px;
 }
-  
-   
 
-
-h1{
-    text-align: center;
-    font-family:Raleway;
-    background-color:rgb(114, 117, 123);
+.search-header {
+    font-size: 24px;
     font-weight: bold;
-    font-size: 35px;
-    
-    
 }
 
-#cityInput, #cityName   #inputContainer,button{
-margin: 3px;
-padding:5px;
-text-align:left;
-font-size:15px;
-font-weight:bold;
+.city-name {
+    font-size: 30px;
 }
 
-#weatherContainer{
-    background-color: beige;
-    
-}
-
-.icons{
-    display: inline-bock;
-    float: left;
-    height: 10px;
-    width: 110px;
-    margin: 20px;
-    border-radius: 10px;
-}
-
-.minValues{
-    text-align: center;
-    display: inline-block;
-    border-radius: 5px;
-    height: 15px;
-    width: 55px;
-    margin: 0;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    font-size: small;
-}
-
-
-.maxValues{
-    text-align: center;
-    display: inline-block;
-    font-weight: bold;
-    justify-content: space-between;
-    border-radius: 5px;
-    height: 15px;
-    width: 55px;
-    margin: 0;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    font-size: small;
-}
-
-.imgClass {
-
-
-}
-
-#day5Min {
-    font-size: large;
-    margin: 5px;
-}
-
-#day5Max {
-    font-size: large;
-    margin-right: auto;
-    display: inline;
-}
-
-#day4Min {
-    font-size: large;
-    margin: 5px;
-}
-
-#day4Max {
-    font-size: large;
-    margin-right: auto;
-    display: inline;
-}
-
-#day3Min {
-    font-size: large;
-    margin: 5px;
-}
-
-#day3Max {
-    font-size: large;
-    margin-right: auto;
-    display: inline;
-}
-
-#day2Min {
-    font-size: large;
-    margin: 5px;
-}
-
-#day2Max {
-    font-size: large;
-    margin-right: auto;
-    display: inline;
-}
-
-#day1Min {
-    font-size: large;
-    margin: 5px;
-}
-
-#day1Max {
-    font-size: large;
-    margin-right: auto;
-    display: inline;
+.forecast-date {
+    font-size: 18px;
 }
