@@ -10,8 +10,7 @@ nature has in store for the current day and next 5 days. It is also important
 if you are going on a vacation to know the weather of your destination, that way
 you can prepare accordingly. This simple weather dashboard can 
 show you the 5 day forecast of your city of choice, max/min temeperature,
-humidity, and wind speed. Weather can change at any given moment but 
-using modern technoloy weather applications are very accurate. 
+humidity, and wind speed. 
 
 ## Visuals
 
