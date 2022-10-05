@@ -1,5 +1,5 @@
 # Weather Dashboard
-Challenge 6 Weather Dashboard 
+Weather Dashboard Application 
 # Work Day Scheduler For Challenge 5 
 
 
